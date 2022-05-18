@@ -1,0 +1,159 @@
+/* 뒷배경 색상 */
+html {
+    height: auto;
+     background: linear-gradient(to bottom, #f5dcf3, #ffffff, #f7bcf2 ); /* linear-gradient : 그라데이션 옵션. 색상코드 3개 손보시면 됨 */
+    }
+    body {
+    background: transparent;  /* 트게더 뒷배경 색상 잘리는 현상 방지(필요함) */
+    }
+    
+    /* 광고가 나오는 최상단 배너 색상 조정  */
+    header #header-bar>.row {
+        padding-top: 0.3em;
+        padding-bottom: 0.3em;
+        border-top: 5px solid #FFB2F5;
+        background: #fff;
+        border-bottom: 2px solid #ebeae8;
+        border-right: 2px solid #ebeae8;
+    }
+    
+    /* 최상단 배너 폰트 색상 */
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        color: #99004C;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    header #header-bar a.dropdown-toggle {
+        display: inline-block;
+        color: #99004C;
+        text-decoration: none;
+        padding: 0.3em 0;
+    }
+    
+    
+    /* 트게더 상단 타방송 배너광고 문구 [광고] 박스 색깔 */
+    header #header-bar #header-top-notice strong.notice-badge {
+        background: #FFB2F5;  /* 이부분 변경하시면 됨 */
+        padding: 4px 8px;
+        color: #fff;
+        font-weight: bold;
+    }
+    header #header-bar #header-top-notice a {
+        color: #BDBDBD;
+        text-decoration: none;
+    }
+    
+    
+    /* 왼쪽 상단 배너 이미지 */
+    header .row>div:nth-child(1)>a {
+      display: block;
+      width: 145px;
+      height: 70px;
+      background: url(https://upload.tgd.kr/20211217/f6cdaee2c30d0cbdda6e3c847f708e0a.png) no-repeat; /* 괄호안 이미지링크 변경하시면 됨. 모를 시 저한테 연락주세요 */
+      background-size: auto 100px; /* 왼쪽 상단 여게더 배너 이미지 크기 100px -> 따로 조정가능 */
+    }
+    
+    header .row>div:nth-child(1)>a>img { 
+      display: none; /* 기존 트게더 배너 숨기기 */
+      filter: grayscale(100%);
+      opacity: 0.8;
+    }
+    
+    
+    /* 왼쪽 트게더 메뉴 색상 */
+    #main .menu-wrapper>.header {
+        background: #F361A6;
+        color: #fff;
+        padding: 0.45em 1.4em 0.45em 1em;
+        font-weight: bold;
+    }
+    #main .menu-wrapper>a>em, #main .menu-wrapper #fav-shortcut-area>a>em {
+        color: #FFD9FA;
+        text-decoration: none;
+        font-style: normal;
+        width: 24px;
+        text-align: center;
+        display: inline-block;
+        font-weight: bold;
+    }
+    
+    
+    
+    /* 메인 상단 카테고리 색상 */
+    #article-list #article-list-category {
+        background: var(--color-4);
+        border-top: 2px solid var(--color-5);
+    }
+    
+    /* 게시글 상단 색상 */
+    #article-content-wrapper > .header {
+        border-top: 3px solid var(--color-5);
+        background: var(--color-4);
+    }
+    
+    /*공지마크 색깔 변경 */
+    span.a-badge i.fa.fa-info-circle {
+        color: #C72F7A;
+        vertical-align: -2px !important;
+    }
+    
+    /* 게시글 추천수 색깔 */
+    #article-list>.article-list-row>.item>.list-header>span {
+        background-color: #F361A6;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 1px 5px;
+        font-size: 11px;
+        border-radius: 100px;
+    }
+    
+    /* 즐겨찾기 별 색상(원래 노란색) */
+    span.a-badge i.fa.fa-star {
+        color: #99004C;
+        vertical-align: -2px !important;
+    }
+    
+    
+    /* 게시글 작성자 닉네임 색상 */
+    #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+        color: #C72F7A;
+        font-weight: bold;
+    }
+    
+    /* 게시글 댓글수 색상 */
+    #article-list>.article-list-row>.item>.list-title>small.comment-count {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 13px;
+        position: relative;
+        text-align: center;
+        padding: 0 5px;
+        color: #F361A6;
+        word-break: break-word;
+        border-radius: 1px;
+        top: 2px;
+        float: left;
+    }
+    
+    /* 버튼들 색깔 */
+    .btn-primary {
+        color: #fff;
+        background-color: #F361A6;
+    }
+    
+    /* 하단에 페이지 선택 버튼 색깔 */
+    .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+        background-color: #F361A6;
+        border-color: #F361A6;
+    }
+    
+    
+    /* 색상값 저장 */
+    :root {
+        --color-4: #FFD9EC; /* 연핑크 */
+        --color-5: #FFB2D9; /* 진한핑크 */
+    }
