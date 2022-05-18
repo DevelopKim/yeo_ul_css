@@ -221,7 +221,7 @@ display:none;
     width: 90px;
     height: auto;
     border-radius: 70px;
-    content: url(https://upload.tgd.kr/20220518/3d37c3f2c1e8a5112e1f320e151b597a.jpeg);
+    /* content: url(https://upload.tgd.kr/20220518/3d37c3f2c1e8a5112e1f320e151b597a.jpeg); */
     border: 1px dashed rgba(235, 109, 177, .7);
     animation: Bounce 0.75s infinite linear;
     float: left !important;
