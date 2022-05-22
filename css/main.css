@@ -12,7 +12,7 @@
 /* 뒷배경 색상 */
 html {
     height: auto;
-    background: #000000; /* linear-gradient : 그라데이션 옵션. 색상코드 3개 손보시면 됨 */
+    background: linear-gradient(#fae5df,#f5cac2, #ed7966) ; /* linear-gradient : 그라데이션 옵션. 색상코드 3개 손보시면 됨 */
 }
 body {
     background: transparent;
@@ -64,7 +64,7 @@ left: -50px;
 header #header-bar>.row {
     padding-top: 0.3em;
     padding-bottom: 0.3em;
-    border-top: 5px solid #000000;
+    border-top: 5px solid #ed7966;
     background: #fff;
     border-bottom: 2px solid #ebeae8;
     border-right: 2px solid #ebeae8;
@@ -76,7 +76,7 @@ border-radius: 10px;
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
-    color: #000000;
+    color: #ed7966;
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -84,7 +84,7 @@ border-radius: 10px;
 }
 header #header-bar a.dropdown-toggle {
     display: inline-block;
-    color: #000000;
+    color: #ed7966;
     text-decoration: none;
     padding: 0.3em 0;
 }
@@ -102,7 +102,7 @@ header #header-bar #header-top-notice a {
 /* 트게더 우측 상단 검색창 색상 */
 header #right-search-form>input[type=text] {
     position: relative;
-    border: 3px solid #000000;
+    border: 3px solid #ed7966;
     background: #fff;
     font-size: 1.1em;
     padding: 0.3em 0.5em;
@@ -451,6 +451,9 @@ footer a {
     border-top:0px;
 }}
 
+/* 
+프로필 이미지 바운스 효과 키프레임
+*/
 @keyframes Bounce {
   0% {
     transform: translateY(-10px);
