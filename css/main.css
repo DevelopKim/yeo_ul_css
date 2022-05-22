@@ -49,7 +49,7 @@ header .row>div:nth-child(1)>a {
     display: block;
     width: 248px;
     height: 89px;
-    background: url(https://upload.tgd.kr/20220119/1c076980cf5ebf146340e03c018cc281.png) no-repeat;
+    background: url(https://developkim.github.io/yeo_ul_css/img/logo.png) no-repeat;
     background-size: auto 100px; /* 왼쪽 상단 여게더 배너 이미지 크기 100px -> 따로 조정가능 */
 }
 body > header > div:nth-child(1) > div > div.col-xs-4 {
