@@ -12,7 +12,7 @@
 /* 뒷배경 색상 */
 html {
     height: auto;
-    background: linear-gradient(#fae5df,#f5cac2, #ed7966) ; /* linear-gradient : 그라데이션 옵션. 색상코드 3개 손보시면 됨 */
+    background: linear-gradient(#fae5df,#f5cac2, #ed7966); /* linear-gradient : 그라데이션 옵션. 색상코드 3개 손보시면 됨 */
 }
 body {
     background: transparent;
@@ -47,9 +47,9 @@ header .row>div:nth-child(1)>a>img {
 /* 트게더 로고 이미지 변경 */
 header .row>div:nth-child(1)>a {
     display: block;
-    width: 248px;
+    width: 290px;
     height: 89px;
-    background: url(https://developkim.github.io/yeo_ul_css/img/logo.png) no-repeat;
+    background: url(https://developkim.github.io/yeo_ul_css/img/logo.png) no-repeat 20px 0;
     background-size: auto 100px; /* 왼쪽 상단 여게더 배너 이미지 크기 100px -> 따로 조정가능 */
 }
 body > header > div:nth-child(1) > div > div.col-xs-4 {
@@ -68,6 +68,7 @@ header #header-bar>.row {
     background: #fff;
     border-bottom: 2px solid #ebeae8;
     border-right: 2px solid #ebeae8;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
 }
 .row {
 border-radius: 10px;
@@ -211,6 +212,7 @@ display:none;
     border-top: 0px solid #fff1f8 !important;
     border-radius: 15px;
     background: #ffffff !important;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
 }
 #board-info h1 {
     padding-top:66px;
