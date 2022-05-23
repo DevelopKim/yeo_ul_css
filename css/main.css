@@ -1,11 +1,11 @@
 /* ----------------------- ----------------------- ----------------------- 전체 ----------------------- ----------------------- ----------------------- */
 /* 폰트 */
 * {
-    font-family:''NEXON Lv2 Gothic Bold';
+	font-family:'Binggrae', 'Helvetica Neue', 'Helvetica','Arial', 'sans-serif';
 }
 @font-face {
-    font-family: 'NEXON Lv2 Gothic Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic Bold.woff') format('woff');
+    font-family: 'Binggrae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
