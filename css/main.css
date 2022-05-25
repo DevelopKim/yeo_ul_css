@@ -223,7 +223,7 @@ display:none;
     width: 90px;
     height: auto;
     border-radius: 70px;
-    /* content: url(https://upload.tgd.kr/20220518/3d37c3f2c1e8a5112e1f320e151b597a.jpeg); */
+    content: url(https://static-cdn.jtvnw.net/jtv_user_pictures/ab2c865d-c871-4302-8cf8-f7a13c59cdb5-profile_image-300x300.png);
     border: 1px dashed rgba(235, 109, 177, .7);
     animation: Bounce 0.75s infinite linear;
     float: left !important;
