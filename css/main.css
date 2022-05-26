@@ -27,8 +27,8 @@ body {
 
 /* 마우스 커서 */
 html, body, .fr-popup.emoticons, .fr-top, select.form-control, input[type=checkbox], input[type=radio], .opt {
-    cursor: url(https://developkim.github.io/yeo_ul_css/img/cursor_white_heart.png) 0 0, auto !important;
-    /*cursor: url(https://developkim.github.io/yeo_ul_css/img/cursor_white_lips.png) 0 0, auto !important;*/
+    cursor: url(../img/cursor_white_heart.png) 0 0, auto !important;
+    /*cursor: url(../img/cursor_white_lips.png) 0 0, auto !important;*/
 }
 
 /* 커서 손가락 모양일때 */
@@ -50,7 +50,7 @@ header .row>div:nth-child(1)>a {
     display: block;
     width: 290px;
     height: 89px;
-    background: url(https://developkim.github.io/yeo_ul_css/img/logo.png) no-repeat 20px 0;
+    background: url(../img/logo.png) no-repeat 20px 0;
     background-size: auto 100px; /* 왼쪽 상단 여게더 배너 이미지 크기 100px -> 따로 조정가능 */
 }
 body > header > div:nth-child(1) > div > div.col-xs-4 {
@@ -414,8 +414,8 @@ footer a {
 /* 다크모드 */
 /* 마우스 커서 */
 html.darkmode html, body, .fr-popup.emoticons, .fr-top, select.form-control, input[type=checkbox], input[type=radio], .opt {
-    cursor: url(https://developkim.github.io/yeo_ul_css/img/cursor_dark_heart.png) 0 0, auto !important;
-    /*cursor: url(https://developkim.github.io/yeo_ul_css/img/cursor_white_lips.png) 0 0, auto !important;*/
+    cursor: url(../img/cursor_dark_heart.png) 0 0, auto !important;
+    /*cursor: url(../img/cursor_white_lips.png) 0 0, auto !important;*/
 }
 
 
