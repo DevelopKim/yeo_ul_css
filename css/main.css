@@ -27,15 +27,13 @@ body {
 
 /* 마우스 커서 */
 html, body, .fr-popup.emoticons, .fr-top, select.form-control, input[type=checkbox], input[type=radio], .opt {
-
     cursor: url(https://Noono0.github.io/yeo_ul_css/img/cursor_yeoul_heart2.png) 0 0, auto !important;
-
 }
 
 /* 커서 손가락 모양일때 */
-.pull-left, a {
-    cursor: url(https://upload.tgd.kr/20211219/40189462cba26b4513b62ed145610a70.png) 0 0, auto !important;
-}
+/*.pull-left, a {*/
+/*    cursor: url(https://upload.tgd.kr/20211219/40189462cba26b4513b62ed145610a70.png) 0 0, auto !important;*/
+/*}*/
 
 /* ----------------------- ----------------------- ----------------------- 상단 ----------------------- ----------------------- ----------------------- */
 
