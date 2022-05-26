@@ -27,8 +27,8 @@ body {
 
 /* 마우스 커서 */
 html, body, .fr-popup.emoticons, .fr-top, select.form-control, input[type=checkbox], input[type=radio], .opt {
-    cursor: url(https://Noono0.github.io/yeo_ul_css/img/cursor_white_heart.png) 0 0, auto !important;
-    /*cursor: url(https://Noono0.github.io/yeo_ul_css/img/cursor_white_lips.png) 0 0, auto !important;*/
+    cursor: url(https://developkim.github.io/yeo_ul_css/img/cursor_white_heart.png) 0 0, auto !important;
+    /*cursor: url(https://developkim.github.io/yeo_ul_css/img/cursor_white_lips.png) 0 0, auto !important;*/
 }
 
 /* 커서 손가락 모양일때 */
@@ -420,8 +420,8 @@ footer a {
 /* 다크모드 */
 /* 마우스 커서 */
 html.darkmode html, body, .fr-popup.emoticons, .fr-top, select.form-control, input[type=checkbox], input[type=radio], .opt {
-    cursor: url(https://Noono0.github.io/yeo_ul_css/img/cursor_dark_heart.png) 0 0, auto !important;
-    /*cursor: url(https://Noono0.github.io/yeo_ul_css/img/cursor_white_lips.png) 0 0, auto !important;*/
+    cursor: url(https://developkim.github.io/yeo_ul_css/img/cursor_dark_heart.png) 0 0, auto !important;
+    /*cursor: url(https://developkim.github.io/yeo_ul_css/img/cursor_white_lips.png) 0 0, auto !important;*/
 }
 
 
