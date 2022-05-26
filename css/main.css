@@ -250,12 +250,6 @@ span.a-badge i.fa.fa-star {
 }
 
 
-#article-list>.article-list-row>.item{
-    display: table-caption
-}
-
-
-
 /* 게시글 작성자 닉네임 색상 */
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
     color: #000000;
