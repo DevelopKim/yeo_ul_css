@@ -197,8 +197,13 @@ header #right-search-form>input[type=text] {
     border-radius: 20px;
 }
 #article-list>.article-list-row.notice {
-    background-color: red;
+    background-color: #ed7966;
 }
+
+#article-list>.article-list-row>.item>.list-title>a:visited {
+    color: #784e4e !important;
+}
+ 
 #article-list {
     background: #ffffff;
     position: relative;
